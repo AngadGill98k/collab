@@ -1,0 +1,10 @@
+#mem{
+    position: absolute;
+    top: 68px; /* Adjust as needed */
+    left: 110vh;
+    background-color: aqua;
+}
+li{
+    list-style: none;
+    background-color: tomato;
+}

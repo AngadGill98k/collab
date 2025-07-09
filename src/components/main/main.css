@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    background-color: bisque;
+    height: 95vh;
+}
+.project{
+    width: 20%;
+    background-color: blue;
+    height: 100%;
+
+}
+.work{
+    background-color: blueviolet;
+    width: 82%;
+    height: 100%;
+}
+.proj{
+    background-color: beige;
+    height: 33px;
+    
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    width: 72%;
+}
+.add{
+    background-color: yellowgreen;
+    height: 5vh;
+    margin-bottom: 10px;
+    padding-top: 4px;
+}
+#inp{
+    height: 4.3vh;
+    border-radius: 15px;
+    margin-left: 5px;
+    border: none;
+    width: 22vh;
+}
+#btn{
+    height: 4.3vh;
+    width: 4.3vh;
+    border-radius: 100%;
+    border: none;
+    margin-left: 5px;
+}
+.item{
+    display: flex;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+}
+#btn1{
+
+    width:33px;
+    height: 33px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 100%;
+}

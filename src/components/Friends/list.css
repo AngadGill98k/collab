@@ -1,0 +1,28 @@
+.list {
+  padding: 0;
+  margin-top: 15px;
+  list-style: none;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/* Each friend item */
+.item {
+  padding: 12px 16px;
+  margin: 8px 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(4px);
+}
+
+.item:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,91 @@
+/* Main container */
+#friend {
+  background: linear-gradient(135deg, #17204f, #292276, #2a2180, #312190);
+  height: 100vh;
+  width: 25%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+/* Header */
+#listhead {
+  padding-bottom: 15px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* Button group */
+#option {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+/* Navigation buttons */
+.btn {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  filter: brightness(90%);
+}
+
+/* Search bar */
+#search {
+  background-color: rgba(255, 228, 196, 0.9);
+  margin-top: 10px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 5px 10px;
+}
+
+/* Input */
+#input {
+  width: 85%;
+  height: 35px;
+  background-color: #7c3aed;
+  border: none;
+  border-radius: 12px;
+  padding-left: 10px;
+  font-size: 0.95rem;
+  color: white;
+  outline: none;
+}
+
+#input::placeholder {
+  color: #ddd;
+}
+
+/* Add button */
+#add {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background-color: #34d399;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#add:hover {
+  background-color: #059669;
+}

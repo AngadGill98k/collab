@@ -1,0 +1,6 @@
+.subnav{
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+    background-color: violet;
+}
